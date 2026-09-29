@@ -165,6 +165,7 @@ newYorkOption.append(newYorkText);
 officeSelect.append(newYorkOption);
 
 const edinburghOption = document.createElement('option');
+
 const edinburghText = document.createTextNode('Edinburgh');
 
 edinburghOption.append(edinburghText);
