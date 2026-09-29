@@ -67,6 +67,8 @@ tbody.addEventListener('click', (e) => {
 
 const form = document.createElement('form');
 
+form.setAttribute('novalidate', 'novalidate');
+
 form.classList.add('new-employee-form');
 
 const body = document.querySelector('body');
@@ -94,7 +96,6 @@ const positionInput = document.createElement('input');
 positionInput.setAttribute('type', 'text');
 positionInput.setAttribute('name', 'position');
 positionInput.setAttribute('data-qa', 'position');
-positionInput.setAttribute('required', 'required');
 
 const positionText = document.createTextNode('Position: ');
 
