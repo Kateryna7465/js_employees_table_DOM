@@ -96,6 +96,7 @@ const positionInput = document.createElement('input');
 positionInput.setAttribute('type', 'text');
 positionInput.setAttribute('name', 'position');
 positionInput.setAttribute('data-qa', 'position');
+positionInput.setAttribute('required', 'required');
 
 const positionText = document.createTextNode('Position: ');
 
