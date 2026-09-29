@@ -127,7 +127,7 @@ salaryInput.setAttribute('required', 'required');
 
 const salaryText = document.createTextNode('Salary: ');
 
-salaryLabel.append(salaryText);
+salaryLabel.append(salaryText); 
 salaryLabel.append(salaryInput);
 
 form.append(salaryLabel);
